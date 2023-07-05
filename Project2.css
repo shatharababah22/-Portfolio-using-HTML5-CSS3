@@ -1,0 +1,490 @@
+.navbar{
+background-color: rgb(121,166,210);
+
+
+}
+.navbar img{
+    margin-left: -4px;
+}
+.nav-link{
+color: rgb(45,89,134);
+margin-right: 18px;
+font-weight: bold;
+font-family: 'IBM Plex Serif', serif;
+font-size:23px;
+}
+
+.Portfolio{
+    width: 100%;
+    background-color:rgb(222,239,244);
+    color:rgb(107,124,169);
+    font-family: 'Roboto Slab', serif;
+}
+.HeaderSec{
+    /* border: 1px black solid; */
+     width: 100%;
+     background-color:rgb(224,236,239);
+     height: 680px;
+     display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Header{
+    /* border: 1px black solid; */
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: rgb(45,89,134);
+    box-sizing: border-box;
+    margin-top: 130px; 
+    padding-left: 70px; 
+    padding-top: 35px;;
+}
+.Headerimage{
+    /* border: 1px black solid; */
+    width: 50%;
+    height: 600px;
+    padding-top: 20px;
+    padding-left: 25px;
+  margin-top: 47px;
+
+}
+.Headerimage:hover img{
+   
+    box-shadow: 10px 10px 10px 5px rgba(45,89,134, 0.5);
+ 
+
+}
+.icon{
+width: 200px;
+height: 50px;
+animation: annimat 2s ease-in;
+}
+@keyframes annimat{
+    0% {
+        visibility: hidden;
+        opacity: 0.1;
+      }
+      100% {
+        visibility: visible;
+     
+      }
+}
+
+
+
+.Headerofeduction{
+    margin-top: 30px;
+    margin-left: 46px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    padding-left: 4px;
+    color: rgb(45,89,134);
+    font-size: 40px;
+width: 250px;
+height:55px;
+background-color: rgb(247,253,255);
+border-radius: 15px;
+}
+.education{
+    /* border: 1px black solid; */
+    width: 100%;
+display: flex;
+flex-direction: row;
+height: 550px;
+margin-top:16px;
+padding-top: 40px;
+}
+.Yarmouk{
+    /* border: 1px black solid; */
+    font-family: 'Roboto Slab', serif;
+    width: 50%;
+    /* height: 560px ; */
+    color:rgb(107,124,169);
+
+}
+.Hajawiphoto{
+    /* border: 1px black solid; */
+    width: 50%;
+/* height: 560px ; */
+padding-top: 35px;
+padding-left:70px;
+}
+.Firstedu{ color:rgb(107,124,169);
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.Yarmoukdetails{
+    padding-top:15px;
+padding-left:70px;
+font-size: 21px;
+}
+
+
+
+
+
+.Headerofskills{
+    /* margin-top: 10px; */
+    margin-left: 46px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    padding-left: 4px;
+    color: rgb(45,89,134);
+    font-size: 40px;
+width: 170px;
+height:55px;
+background-color: rgb(247,253,255);
+border-radius: 15px;
+}
+.skills{background-image:url(./image/image_png__3_-removebg-preview.png);
+    /* background-repeat: no-repeat; */
+
+    background-size: 400px 400px;
+    background-position: 300px ;
+    /* border: 1px black solid; */
+    width:100% ;
+    height: 540px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 60px; 
+padding-left: 20px;
+}
+.softskills{
+    /* border: 1px black solid; */
+    text-align: center;
+    width: 40%;
+    height: 390px;
+
+border-radius: 85px;
+ display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 20px;
+/* padding-top: 10px; */
+color:rgb(107,124,169);
+font-family: 'Roboto Slab', serif;
+/* transition:transform 1s ease-in; */
+transition-delay: 2s;
+}
+.softskills:hover h4 {
+transform: scale(1.5);
+
+
+
+}
+.softskills:hover .list-item {
+    transform: scale(1.2);
+    
+    
+    
+    }
+.Technicalskills{
+    /* border: 1px black solid; */
+width: 40%;
+height: 390px;
+border-radius: 85px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 100px;
+font-size: 20px;
+/* padding-top: 10px; */
+color:rgb(107,124,169);
+font-family: 'Roboto Slab', serif;
+
+}
+.Technicalskills:hover h4 {
+    transform: scale(1.5);
+    
+    
+    
+    }
+    .Technicalskills:hover .list-item {
+        transform: scale(1.2);
+        
+        
+        
+        }
+h4{padding-top: 15px;
+    padding-right: 4px;
+    text-align: center;
+    color:rgb(107,124,169);
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+     transition: transform 2s ease-in;
+}
+.list-item{
+    padding-top: 6px;
+    transition: transform 2s ease-in;
+}
+.Headerofcertificate{
+    margin-top: 10px;
+    margin-left: 46px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    padding-left: 4px;
+    color: rgb(45,89,134);
+    font-size: 40px;
+width: 250px;
+height:55px;
+background-color: rgb(247,253,255);
+border-radius: 15px;
+}
+
+.certificate{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    margin-top: 14px;
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.JuGate{
+    /* border: 1px solid black; */
+background-color: rgb(247,253,255);
+display: flex;
+width: 86%;
+height: 250px;
+flex-direction: row;
+border-radius: 60px;
+}
+.CodingAcademy{
+    /* border: 1px solid black; */
+    background-color: rgb(247,253,255);
+    border-radius: 60px;
+    width: 86%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+border-radius: 60px;
+margin-left: 43px;
+} 
+.thecert{ 
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 26px;
+}
+.photoofcert{
+    /* border: 1px solid black; */
+width:30% ;
+padding-left: 20px;
+}
+.photoofcert:hover img{
+
+    transform: scale(1.2);
+        
+    }
+#orange{padding-top: 27px;}
+.para{
+    /* border: 1px solid black; */
+width:70%;
+}
+.paragofcert{
+
+font-size: 20px;
+padding-left: 70px;
+
+
+}
+
+.Headeroflang{
+    margin-top: 10px;
+    margin-left: 46px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    padding-left: 4px;
+    color: rgb(45,89,134);
+    font-size: 40px;
+width: 250px;
+height:55px;
+background-color: rgb(247,253,255);
+border-radius: 15px;
+}
+.Language{
+    background-position: 300px ;
+    margin-left: 40px;
+    margin-top: 15px;
+font-size: 30px;
+}
+
+.Headerofexperience{
+margin-top: 30px;
+margin-left: 46px;
+margin-bottom: 5px;
+font-family: 'Roboto Slab', serif;
+font-style: italic;
+padding-left: 4px;
+color: rgb(45,89,134);
+font-size: 40px;
+width: 300px;
+height:58px;
+background-color: rgb(247,253,255);
+border-radius: 15px;
+}   
+
+.experience{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 750px;
+    margin-top: 14px;
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.Orange{
+    /* border: 1px solid black; */
+    
+    display: flex;
+    width: 88%;
+    height: 300px;
+    flex-direction: row;
+    border-radius: 60px;
+    }
+    .Extensya{
+        /* border: 1px solid black; */
+        
+
+        border-radius: 60px;
+        width: 88%;
+        height: 380px;
+        display: flex;
+        flex-direction: row;
+    border-radius: 60px;
+  
+    } 
+.photoofexp1{
+
+    padding-left:80px;
+    width:60%;
+     height: 240px;
+}
+    .theexp{ 
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 24px;
+    }
+    .photoofexp{
+        /* border: 1px solid black; */
+  
+    width:50% ;
+    padding-top: 20px;
+    }
+
+    .parag{
+        /* border: 1px solid black; */
+    width:50%;
+    }
+    .paragofexp{
+    font-size: 20px;
+    padding-left: 83px;
+    
+    }
+.photoextensya{padding-left:60px;
+padding-top: 26px;
+width: 70%;
+height: 320px;
+
+}
+.Headerofreferance{
+    margin-top: 20px;
+    margin-left: 46px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    padding-left: 4px;
+    color: rgb(45,89,134);
+    font-size: 40px;
+    width: 250px;
+    height:58px;
+    background-color: rgb(247,253,255);
+    border-radius: 15px;
+
+
+}
+.referance{
+font-size: 24px;
+padding-top: 20px;
+padding-left: 65px;
+padding-bottom: 20px;
+
+}
+footer{
+
+    background-color: rgb(121,166,210);
+    width: 100%;
+    height: 300px;
+}
+.infoforfooter{
+font-size: 22px;
+color: rgb(45,89,134);
+padding-top: 33px;
+padding-left: 33px;
+
+}
+.follow{color: rgb(45,89,134);
+    font-size: 23px;
+    padding-left: 30px;
+
+}
+.logoinfooter{
+    /* margin-right: 20px;
+    margin-top: 30px; */
+float: right;
+margin-right: 15px;
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Header{
+       font-size: 22px;
+    }
+.Technicalskills{
+padding-left: 40px;
+}
+.softskills{
+
+    padding-left: 178px;
+}
+.photoofexp{
+    /* border: 1px solid black; */
+
+width:40% ;
+padding-top: 20px;
+}
+
+.parag{
+    /* border: 1px solid black; */
+width:60%;
+}
+.photoofexp1{
+width:70%;
+padding-left: 2px;
+margin-left: 32px;
+
+}
+    .photoextensya{
+width:90%;
+
+padding-left: 20px;
+
+
+
+    }
+}
