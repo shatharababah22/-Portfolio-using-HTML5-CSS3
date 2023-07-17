@@ -13,6 +13,10 @@ font-weight: bold;
 font-family: 'IBM Plex Serif', serif;
 font-size:23px;
 }
+.fixed-top{
+    display: none;
+}
+
 
 .Portfolio{
     width: 100%;
@@ -91,10 +95,11 @@ color: rgb(45,89,134);;
     0% {
         visibility: hidden;
         opacity: 0.1;
+        transform: scale(0.7);
       }
       100% {
         visibility: visible;
-     
+        transform: scale(1.2);
       }
 }
 
@@ -326,9 +331,18 @@ padding-left: 70px;
 
 
 }
+.lang2{
+/* border: 1px black solid; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+width: 100%;
+height: 250px;
+}
 
-.Headeroflang{
-    margin-top: 10px;
+.Headeroflang{width: 20%;
+    /* border: 1px black solid; */
+    margin-top: 90px;
     margin-left: 46px;
     margin-bottom: 5px;
     font-family: 'Roboto Slab', serif;
@@ -336,16 +350,20 @@ padding-left: 70px;
     padding-left: 4px;
     color: rgb(45,89,134);
     font-size: 40px;
-width: 250px;
+width:270px;
 height:55px;
 background-color: rgb(247,253,255);
 border-radius: 15px;
 }
 .Language{
-    background-position: 300px ;
-    margin-left: 40px;
-    margin-top: 15px;
-font-size: 30px;
+    width: 80%;
+    /* border: 1px black solid; */
+   height: 170px;
+   /* padding-left: 400px; */
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 70px;
+font-size: 37px;
 }
 
 .Headerofexperience{
@@ -451,37 +469,522 @@ padding-left: 65px;
 padding-bottom: 20px;
 
 }
-footer{
-
+.footer{
+   
     background-color: rgb(121,166,210);
     width: 100%;
-    height: 300px;
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+    color: rgb(45,89,134);
+    font-family: 'Roboto Slab', serif;
 }
-.infoforfooter{
-font-size: 22px;
-color: rgb(45,89,134);
-padding-top: 33px;
-padding-left: 33px;
+.foot1{width: 33%;
+padding-left:30px ;
+font-size: 21px;
 
 }
-.follow{color: rgb(45,89,134);
-    font-size: 23px;
-    padding-left: 30px;
+.foot1 a{
+    color: rgb(45,89,134);
+}
+.logoinfooter{
+
+    margin-left: 52px;
+}
+.foot2{text-align: center;
+    padding-top: 30px;
+
+    width: 33%;
+}
+.link{
+font-size: 35px;
+font-family: 'Roboto Slab', serif;
+}
+.link1{margin-top: 15px;
+font-size: 21px;
+
+}
+.foot3{ padding-top: 30px;
+    
+    width: 35%; 
+    text-align: center;
+}
+.foot3 input[type="text"],
+.foot3 input[type="password"] {
+ 
+  padding: 12px 20px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+form{
+    margin-top: 30px;
+}
+button{background-color: #e0e9f3;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(45,89,134);
+    width: 80px;
+    height: 30px;
+}
+
+@media screen and (max-width: 480px){
+
+    .Portfolio{
+        background-color:white;
+        width: 100%;
+      
+      
+    }
+    #Hello{
+
+        display: none;
+    }
+.fixed-top{width: 100%;
+    display: block;
+    background-color: rgb(121,166,210);
+
+}
+.Headerofeduction , .Headerofcertificate , .Headerofreferance , .Headerofexperience , .Headeroflang , .Headerofskills{
+    background-color:rgb(121,166,210);
+}
+.HeaderSec{ 
+    width: 150%;
+    display: flex;
+    flex-direction: column; 
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    height: 1020px;
+    box-sizing: border-box;
+    
+
+}
+.Headerimage{
+width: 100%;
+height: 400px;
+/* padding-bottom: 40px;
+margin-bottom: 100px; */
+
+}
+.Headerimage img{
+width: 75%;
+height: 380px;
+margin-left: 80px;
+align-items: center;
+}
+.Header{
+margin-top: 60px;
+width: 100%;
+height: 400px;
+font-size: 27px;
+padding-top: 80px;
+padding-left: 40px;
+
+
+}
+/* .navbar a{
+    margin-left: 1px;
+} */
+.icon{
+margin-left: 5px;
+}
+
+.education{
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    height: 970px;
+   
+}
+.Yarmouk{
+width: 120%;
+height: 460px;
+
+}
+.Firstedu{
+    font-size: 30px;
+}
+.Yarmoukdetails{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.Hajawiphoto{
+  
+    width: 120%;
+    height: 500px;
+}
+
+.nav-link{margin-right: 1px;}
+
+.skills{width: 120%;
+   background-image: none;
+    display: flex;
+    flex-direction: column;
+ margin-left: 80px;
+    justify-content: space-evenly;
+    height:980px;
+    
+}
+.softskills{border: 2px solid rgb(121,166,210);
+height: 450px;
+    width: 95%;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.Technicalskills{border: 2px solid rgb(121,166,210);
+padding-left: 1px;
+    width: 95%;
+    height: 450px;
+    font-size: 28px;
+ 
+}
+h4{
+    font-size: 34px;
+}
+.Headerofcertificate{
+margin-top: 40px;
+
+}
+.certificate{height: 600px;
+    /* border: 1px solid black; */
+    width: 150%;
+    height: 800PX;
+    /* padding-bottom: 110px; */
+    padding-bottom: 70px;
+   
+}
+.JuGate{background-color: white;
+    /* border: 1px solid black; */
+height: 240px;
+display: flex;
+flex-direction: column;
+height: 350px;
+margin-right: 40px;
+
+}
+
+.CodingAcademy{background-color: white;
+    /* border: 1px solid black; */
+    height: 240px;
+    display: flex;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    margin-right: 65px;
+    height: 350px;
+
+}
+
+.photoofcert{
+/* border: 1px solid black; */
+width: 70%;
+margin-left: 90px;
+/* margin-left: 90px; */
+
+}
+
+
+.paragofcert{
+
+    display: none;
+}
+.thecert{
+    font-size: 29px;
+}
+#orange{
+    width: 89%;
+}
+.Headeroflang{
+    margin-top: 50px;
+}
+.lang2{
+width: 150%;
+    display: flex;
+    flex-direction: column;
+    height: 
+    350px;
+}
+.experience{
+width: 150%;
+height: 1450px;
+
+
+}
+.Orange{width: 100%;
+
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 28px;
+}
+
+.Extensya{width: 100%;
+  
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.parag{
+    
+    height: 320px;
+    width: 100%;
+   
+
+}
+.paragofexp{
+    font-size: 25px;
+}
+.photoofexp{
+
+    height: 300px;
+    width: 100%;
+    padding-left:80px ;
+/* padding-bottom: 40px; */
+}
+.photoextensya{
+width: 70%;
+height: 300px;
+margin-top: 15px;
+
+
+}
+.photoofexp1{width: 70%;
+    height: 300px;
+    margin: 1px;
+
+}
+.referance{
+    width: 150%;
+    font-size: 30px;
+
+
+}
+.footer{
+width: 150%;
+display: flex;
+flex-direction: column;
+height: 900px;
+
+}
+.foot1{
+    border: 1px rgb(45,89,134) solid;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.foot2{
+    border: 1px rgb(45,89,134) solid;
+    height: 300px;
+    width: 100%;
+}
+.foot3{
+    border: 1px rgb(45,89,134) solid;
+    height: 300px;
+    width: 100%;
 
 }
 .logoinfooter{
-    /* margin-right: 20px;
-    margin-top: 30px; */
-float: right;
-margin-right: 15px;
-
-}
-.follow a{
-    color: rgb(45,89,134);
-
+   margin-right: 40px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+}
+@media screen and (max-width: 325px){
+    .HeaderSec{
+        width: 170%;
+    }
+    .education{
+        width: 150%;
+height: 850px;
+    }
+    .Yarmoukdetails{
+        font-size:22px;
+    }
+    .Yarmouk{font-size: 30px;width: 100%;}
+
+
+
+
+.Hajawiphoto{
+    width: 90%;
+    height: 300px;
+    margin-bottom: 100px; 
+}
+.educationimage{
+    height: 300px;
+
+}
+.Language{
+    width: 100%;
+}
+
+.experience{
+    width: 150%;
+    height: 1400px;
+    
+    
+    }
+    
+.Extensya,.Orange{width: 100%;
+  
+    height: 700px;
+   
+ 
+}
+.parag{
+    
+    height: 230px;
+    width: 100%;
+   
+
+}
+.paragofexp{
+    font-size: 20px;
+}
+.theexp{width: 100%;
+font-size: 28px;
+
+}
+.photoofexp{
+
+    height: 300px;
+    width: 100%;
+   padding-right: 50px;
+
+}
+.photoextensya{
+width: 100%;
+height: 300px;
+
+
+
+}
+
+.photoofexp1{width: 100%;
+    height: 300px;
+    
+
+}
+.photoofexp{
+    margin-top: 100px;
+   
+}
+.softskills,.Technicalskills{
+    font-size: 27px;
+  
+}
+.certificate{
+   
+}
+.thecert{width: 100%;
+    font-size: 28px;
+}
+.referance{
+    font-size:22px;
+}
+.footer{
+    width: 170%;
+}
+
+}
+@media screen and ((min-width: 481px) and (max-width: 768px)){
+.nav-link{
+    font-size: 17px;
+    margin-right: 3px;
+}
+.Header{
+
+    font-size: 20px;
+}
+.Yarmoukdetails{
+    font-size: 17px;
+
+
+}
+.educationimage{
+height: 270px;
+width: 90%;
+
+}
+
+.paragofcert{
+
+    font-size: 17px;
+
+}
+
+#orange{
+    width: 89%;
+}
+.JuGate, .CodingAcademy{
+    padding-top: 25px;
+}
+.experience , .Orange ,.Extensya{
+
+width: 100%;
+/* height: 750px; */
+
+}
+.theexp{
+    font-size:22px;
+}
+.paragofexp{
+    font-size: 17px;
+}
+.parag{
+width: 60%;
+}
+.logoinfooter{
+      
+    margin-right: 35px;
+
+ 
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    
+    }
+    .foot1{
+        border: 1px rgb(45,89,134) solid;
+        height:300px;
+        width: 100%;
+        text-align: center;
+    }
+    .foot2{
+        border: 1px rgb(45,89,134) solid;
+        height:300px;
+        width: 100%;
+    }
+    .foot3{
+        border: 1px rgb(45,89,134) solid;
+        height: 300px;
+        width: 100%;
+    
+    }
+
+.photoofexp{
+width: 40%;
+
+.photoofexp1{
+  
+    width: 100%;
+    padding-left: 1px;
+
+
+}
+.photoextensya{padding-left: 1px;
+    width: 100%;
+height: 260px;
+}
+
+
+}
+
+
+
+@media screen and ((min-width: 769px) and (max-width: 1024px)) {
     .Header{
        font-size: 22px;
     }
@@ -509,9 +1012,10 @@ padding-left: 2px;
 margin-left: 32px;
 
 }
-    .photoextensya{
+.photoextensya{
 width:90%;
 
 padding-left: 20px;
     }
+}
 }
